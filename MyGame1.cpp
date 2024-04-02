@@ -19,7 +19,11 @@ class Zergling : public Unit
 {
 private:
 public:
-	
+	void doMove(int n)
+	{
+		Unit::doMove(n);
+		printf("저글링은 네 발로 이동합니다.\n");
+	}
 };
 
 int main()
