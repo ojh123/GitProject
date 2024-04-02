@@ -23,6 +23,10 @@ public:
 	{
 		Unit::doMove(n);
 		printf("저글링은 네 발로 이동합니다.\n");
+
+	}
+	void dowalk(int n)
+	{
 		Unit::dowalk(n);
 		printf("저글링은 네 발로 걷습니다.\n");
 	}
