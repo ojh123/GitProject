@@ -14,11 +14,11 @@ class Marine : public Unit
 public:
 	void doMove()
 	{
-		printf("마린은 두 발로 이동합니다.\n");
+		printf("마린은 네 발로 이동합니다.\n");
 	}
 	void dowalk()
 	{
-		printf("마린은 두 발로 걷습니다.\n");
+		printf("마린은 네 발로 걷습니다.\n");
 	}
 	
 };
