@@ -24,6 +24,13 @@ public:
 
 int main()
 {
-	
+	Marine* mar1 = new Marine();
+	mar1->doMove();
+	mar1->dowalk();
+
+	Zergling* zer1 = new zer1();
+	zer1->doMove();
+	zer1->dowalk();
+
 	return 0;
 }
