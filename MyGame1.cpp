@@ -21,9 +21,7 @@ private:
 public:
 	void doMove()
 	{
-	
 		printf("저글링은 네 발로 이동합니다.\n");
-
 	}
 	void dowalk()
 	{
