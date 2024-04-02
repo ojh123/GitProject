@@ -19,15 +19,14 @@ class Zergling : public Unit
 {
 private:
 public:
-	void doMove(int n)
+	void doMove()
 	{
-		Unit::doMove(n);
+	
 		printf("저글링은 네 발로 이동합니다.\n");
 
 	}
-	void dowalk(int n)
+	void dowalk()
 	{
-		Unit::dowalk(n);
 		printf("저글링은 네 발로 걷습니다.\n");
 	}
 };
@@ -38,7 +37,7 @@ int main()
 	mar1->doMove();
 	mar1->dowalk();
 
-	Zergling* zer1 = new zer1();
+	Zergling* zer1 = new Zergling();
 	zer1->doMove();
 	zer1->dowalk();
 
